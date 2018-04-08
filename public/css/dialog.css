@@ -1,0 +1,96 @@
+#wrap, #wrap2, #wrap3{
+    display: none;
+    opacity: 0.8;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    padding: 16px;
+    background-color: rgba(1, 1, 1, 0.725);
+    z-index: 100;
+    /*overflow: none;*/
+}
+
+#booking{
+    width: 600px;
+    height: 550px;
+    margin: 50px auto;
+    display: none;
+    background: #fff;
+    z-index: 1000;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    padding: 16px;
+    overflow: auto;
+}
+#sign{
+    width: 300px;
+    height: 380px;
+    margin: 100px auto;
+    display: none;
+    background: #fff;
+    z-index: 2000;
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    padding: 16px;
+    overflow: auto;
+}
+#registration{
+    width: 300px;
+    height: 320px;
+    margin: 100px auto;
+    display: none;
+    background: #fff;
+    z-index: 2000;
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    padding: 16px;
+    overflow: auto;
+}
+.account{
+    font-size: larger;
+}
+.login_name, .registration_name{
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: larger;
+}
+.button_sign{
+    display:block;
+    width: 100px;
+}
+.inp_line{
+    margin-bottom: 10px;
+}
+.close{
+    margin-left: 364px;
+    margin-top: 4px;
+    cursor: pointer;
+}
+.vk a{
+    color:#5d84ae;
+}
+.social{
+    margin-bottom: 10px;
+    text-align: center;
+}
+.google-pluse a{
+    color:#DD4B39;
+}
+.need_acc{
+    margin-top: 60px;
+}
